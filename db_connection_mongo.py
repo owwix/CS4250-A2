@@ -9,7 +9,7 @@ from pymongo import MongoClient
 from datetime import datetime
 
 def connectDataBase():
-    client = MongoClient("mongodb+srv://owwix:Nsxlover32!@cluster0.n1zt8.mongodb.net/")
+    client = MongoClient("mongodb+srv://owwix:********@cluster0.n1zt8.mongodb.net/")
     db = client['A2']
     collection = db['A2'] 
 
